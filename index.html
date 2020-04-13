@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>  
+  
+  <!-- site specific stylesheet -->
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <title>Yoga With Melissa Bennett</title>
+
+</head>
+
+<body>
+
+  <!-- navbar -->
+<div class="pos-f-t">
+  <nav
+    id="navbar"
+    class="navbar fixed-top navbar-dark d-flex flex-row"
+  >
+  <!-- not expanded -->
+  <!-- class="navbar navbar-expand-lg fixed-top navbar-dark d-flex flex-row" -->
+  <!-- always expanded -->
+  <!-- class="navbar fixed-top navbar-dark bg-dark d-flex flex-row" -->
+
+    <img class="navbar-brand navbar-image d-flex justify-content-center mx-auto" src="images/MB-Vet-Logo.jpg" alt="Yoga With Melissa Bennet Logo">
+    <!-- <img class="navbar-brand navbar-image d-flex justify-content-center" src="images/MB-Vet-Logo.jpg" alt="Yoga With Melissa Bennet Logo"> -->
+    <!-- <button class="navbar-toggler d-flex justify-content-start" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent"> -->  <!-- flex grow 0 makes the items use only space that is needed-->
+        <ul class="navbar-nav ml-auto text-right">  <!-- text-right makes the navbar items appear to the right when dropped down--> 
+          <li class="nav-item active mr-3">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="classes.html">Classes<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="resources.html">Resources<span class="sr-only">(current)</span></a>
+          </li>                          
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="about.html">About Melissa<span class="sr-only">(current)</span></a>
+          </li>          
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+          </li>                          
+        </ul>
+      </div>
+    </div>      
+  </nav>
+</div>
+
+
+  <!-- <nav class="navbar navbar-expand-lg navar-light bg-white border-bottom border-dark fixed-top"> -->
+    <!-- <div class="container-fluid">
+      <ul class="nav navbar-nav text-nowrap flex-row mx-md-auto">
+        <li class="nav-item"><img class="navbar-brand" src="images/MB-Vet-Logo.jpg" alt="Yoga With Melissa Bennet Logo"></li>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>           
+      </ul>
+   
+
+      <div class="ml-auto navbar-collapse collapse" id="navbarSupportedContent">
+        <ul class="ml-auto nav navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Classes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+          </li>            
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+      </div>
+    </div> -->
+      <!-- <img class="navbar-brand navbar-image" src="images/MB-Vet-Logo.jpg" alt="Yoga With Melissa Bennet Logo"> -->
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+
+      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto"> 
+          <li class="nav-item active mr-3">
+            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active mr-3">
+            <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active mr-3">
+            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+          </li>                
+        </ul>
+      </div>
+    </div> -->
+  <!-- </nav> -->
+
+  <!-- header - position based on if there is a navbar or not -->
+  <!-- remember bootstrap jumbotron is a possibility here instead-->
+
+  <!-- bootstrap container.  see documentation here:
+  https://getbootstrap.com/docs/4.4/layout/overview/
+  classes can be "container","container-fluid (which is max viewport width", or others based on need.
+  Uncomment out "container" row to see effects -->
+  <!-- <main class="container"> -->
+  <main class="container">
+    <div class="row py-3">
+      <section class="col-lg-12">
+        <header>
+          <h1>Yoga With Melissa Bennett</h1>
+        </header>        
+      </section>
+    </div>    
+    <div class="row">
+      <section class="col-lg-4 centered_text">
+        <img id="melissapic" src="images/group_shot_1_300x397.jpg" class="img-fluid" alt="Responsive image">   
+      </section>
+      <section class="col-lg-8">
+        <div>
+          <p>I teach a free Warriors at Ease yoga class for veterans, active duty military, and their family members. This class is my way of giving back to our military community. I am a RYT-200 and a Certified Warriors at Ease yoga teacher. Warriors at Ease classes are based on methods that are trauma-sensitive, evidence-based, and informed by military culture. My classes incorporate full body stretching, breathing meditation, balance practice, and strength building. Classes are for all ability levels with various modifications provided.</p>
+          <p>Currently, classes are being held every Sunday, from 3:00PM until 4:15PM at American Legion Post 138 in Roxboro, NC:</p>
+          <div class="bold_text centered_text my-3 mt-3">
+            American Legion Post 138<br>
+            218 Chub Lake Street<br>
+            Roxboro, NC 27573
+          </div>
+        </div>
+        <div id="btnwrapper" class="pb-3">
+          <button type="button" class="btn greenbtn">Class Information</button>
+        </div>
+      </section>     
+    </div>        
+    
+    <div class="row py-3 greenbackground">
+      <section class="col-lg-12">
+        <header>
+          <h1>Warriors At Ease</h1>
+        </header>        
+      </section>
+    </div>    
+    <div class="row greenbackground">
+      <section class="col-lg-9"> <!--pic-->
+        <!-- Responsive image -->
+        <p>The mission of Warriors at Ease is to “increase awareness about the power of yoga and meditation and educate a network of professionals qualified to share evidence-based practices through programs that support the health and healing of service members, veterans, and their families.”  For more information about Warriors At Ease and other resources, click the Resources button.</p>
+        <div id="btnwrapper" class="pb-3">
+          <button type="button" class="btn beigebtn">Resources</button>
+        </div>
+      </section>
+
+      <section class="col-lg-3 centered_text">
+        <img id="warriorpic" src="images/warriors_logo100x324.png" class="img-fluid" alt="Responsive image">    
+      </section>     
+    </div>      
+
+    <!-- <div class="row greenbackground py-3">
+      <section class="col-lg-12 greenbackground">
+        <header>
+          <h1>Warriors At Ease</h1>
+        </header>        
+      </section>
+    </div>    
+    <div class="row greenbackground">
+      <section class="col-lg-12 mb-3 greenbackground">
+        <div>
+          <div>
+            <div>            
+              <p>The mission of Warriors at Ease is to “increase awareness about the power of yoga and meditation and educate a network of professionals qualified to share evidence-based practices through programs that support the health and healing of service members, veterans, and their families.”  For more information about Warriors At Ease and other resources, click the Resources button.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor, ante non lacinia efficitur, velit quam bibendum est, in volutpat libero purus sed arcu. Sed eleifend, est in hendrerit pharetra, tellus neque rhoncus dui, ut tristique enim felis eleifend nibh. Etiam hendrerit id ipsum vel fermentum. Integer sit amet velit consequat, ultrices justo sit amet, egestas ipsum. Pellentesque tempus tristique ultrices. Suspendisse ac arcu tempus, varius nulla eget, pharetra velit. Suspendisse aliquam, enim et pulvinar aliquam, metus dolor tincidunt quam, vitae accumsan sapien arcu at augue. Curabitur arcu tortor, maximus tempor elit nec, sagittis volutpat dui. Pellentesque vel justo blandit, euismod sapien consequat, fermentum nisi. Donec interdum nisl ut dui fringilla tincidunt. Nunc eget sollicitudin erat. Etiam eget eros dolor. Aliquam in odio augue. Nunc nisi orci, molestie interdum felis a, ultrices convallis sem.</p>
+            </div>
+            <div id="btnwrapper" class="pb-3">
+              <button type="button" class="btn beigebtn">Resources</button>
+            </div>
+          </div>
+          
+          <div>
+            <img id="warriorpic" src="images/warriors_logo.png" class="img-fluid" alt="Responsive image">   
+          </div>
+        </div>
+      </section>         
+    </div>         -->
+
+  </main>
+  
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!-- moment.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <!-- code for dropdowns -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script> 
+  <!-- site specific js -->
+  <script src="script/script.js"></script>
+</body>
+
+</html>

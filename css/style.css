@@ -1,0 +1,96 @@
+/* header {
+  background-color: green;
+  text-align: center;
+  height: 100px;
+  margin: auto;
+  padding: 21px 0;
+  position: relative;
+  top: 48px;
+} */
+
+/* .navbar {
+  height: 500px;
+} */
+
+.navbar-image {
+  height: 100px;
+  width: 365px;
+  /* margin-left: 300px;   */
+}
+
+.navbar {
+  background-color: #2e3d30;
+}
+
+/* button.navbar-toggler:focus { outline: 1px none; } */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.35;
+    background-color: #d8d8c8;
+  }
+
+.container {
+  margin-top: 125px;
+  margin-bottom: 25px;
+  background-color: whitesmoke
+}
+
+/* #melissapic {
+  height: 300px;
+  width: 300px;
+  float: left;
+  margin-right: 15px;  
+} */
+
+#warriorpic {
+  /* height: 100px; */
+  /* width: 30%; */
+  /* float: right; */
+  /*margin-right: 15px;   */
+}
+
+
+#address {
+  text-align: center;
+
+}
+
+.bold_text {
+  font-weight: bold;
+}
+
+.centered_text{
+  text-align: center;
+}
+
+#first-section {
+  margin-bottom: 25px;
+}
+
+#centered_button {
+  text-align: center;
+}
+
+#btnwrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.greenbtn {
+  background-color: #647474;
+  color: #d8d8c8;
+}
+
+.greenbackground {
+  background-color: #647474;
+  color: #d8d8c8;
+}
+
+.beigebtn {
+  background-color: #d8d8c8;
+  color: #647474;
+}
