@@ -1,21 +1,6 @@
-/* header {
-  background-color: green;
-  text-align: center;
-  height: 100px;
-  margin: auto;
-  padding: 21px 0;
-  position: relative;
-  top: 48px;
-} */
-
-/* .navbar {
-  height: 500px;
-} */
-
 .navbar-image {
   height: 100px;
   width: 365px;
-  /* margin-left: 300px;   */
 }
 
 .navbar {
@@ -23,6 +8,14 @@
 }
 
 /* button.navbar-toggler:focus { outline: 1px none; } */
+
+h1 {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -67,10 +60,6 @@ body {
 
 #first-section {
   margin-bottom: 25px;
-}
-
-#centered_button {
-  text-align: center;
 }
 
 #btnwrapper {
